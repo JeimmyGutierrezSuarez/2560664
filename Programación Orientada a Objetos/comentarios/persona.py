@@ -19,3 +19,4 @@ ob=Persona('Ana')   #ob es un objeto la cual es de la clase persona la cual su p
 print(ob.getNombre())   #imprime el objeto que llama el metodo getNombre el cual es su parametro Ana   
 ob.setNombre('Maria')   #Esta linea modifica el metodo getNombre por el parametro que era Ana por el metodo setNombre para que el parametro cambie a Maria 
 print(ob.getNombre())   #Imprime Maria ya que getNombre fue remplazado por setNombre
+ 

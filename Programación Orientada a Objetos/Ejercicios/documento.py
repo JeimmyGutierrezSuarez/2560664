@@ -15,7 +15,7 @@ class Persona:
     def setDocumento(self,documento):
         self.__documento=documento
 
-                                            #objeto es el que inicia y recoge todos los metodos de una clase (persona)
+        #objeto es el que inicia y recoge todos los metodos de una clase (persona)
 
 ob=Persona('Ana',148523)   
 print(ob.getNombre(),ob.getDocumento())   
