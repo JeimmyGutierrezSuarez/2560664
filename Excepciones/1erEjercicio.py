@@ -1,6 +1,6 @@
 'NameError'
 def s_error(string):
-    pri(string)
+    pr(string)
 try:
     s_error('Hola')
 except NameError:
