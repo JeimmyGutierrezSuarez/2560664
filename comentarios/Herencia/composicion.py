@@ -1,5 +1,5 @@
-class Aprendiz:
-    def __init__(self,nombre):
+class Aprendiz:         #En esta linea se crea una clase la cual es Aprendiz 
+    def __init__(self,nombre):      #En esta linea se crea un constructor el cual tiene como atributo self y nombre
         self.__nombre=nombre
         self.__cursos=[]
 
