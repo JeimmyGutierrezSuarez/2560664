@@ -5,6 +5,6 @@ class datos:
         self.__nombre=nombre
         self.__sitio_web= sitio_web 
 
-        def informacionEmpresa(self):
-            return self.__id+''+ self.__organizacion+''+ self.__nombre+''+sitio_web
+    def informacionEmpresa(self):
+            return self.__id+' '+ self.__organizacion+' '+ self.__nombre+' '+self.__sitio_web
         
